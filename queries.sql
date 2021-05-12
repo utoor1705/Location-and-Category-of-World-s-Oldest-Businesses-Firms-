@@ -1,3 +1,4 @@
+/* Project worked on in: PostgreSQL */
 /* Objective: Determine the Location & Category of World's Oldest Businesses & Firms */
 /* Considering the three datasets we have, we will utilize each one at appropriate times, these include business.csv, categories.csv & countries.csv */
 
