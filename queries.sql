@@ -77,3 +77,18 @@ GROUP BY c.continent
 ORDER BY MIN(b.year_founded)
 
 
+/* Combine all three tables for further analysis. An example givien below */
+
+WITH whole_table as (SELECT * FROM 
+	(SELECT * 
+	FROM businesses JOIN countries
+	ON businesses.country_code = countries.country_code) AS intermediate
+	JOIN categories ON categories.category_code = intermediate.category_code) 
+
+SELECT continent, COUNT(*) as c 
+FROM whole_table
+GROUP BY continent
+HAVING c > 5
+ORDER BY c DESC
+
+
