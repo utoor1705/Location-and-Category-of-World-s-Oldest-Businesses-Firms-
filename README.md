@@ -9,9 +9,9 @@ An important part of business is planning for the future and ensuring that the c
 
 Oldest Business name: Kongō Gumi 
 
-Oldest Business Location: Japan 
+Oldest Business's Location: Japan 
 
 Category with most oldest businesses: Banking & Finance
 
-Most oldest business location: Asia 
+Most oldest businesses location: Asia 
 
